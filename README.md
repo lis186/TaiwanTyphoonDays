@@ -26,6 +26,22 @@ data/{西元年}.json
 
 每個檔案是依日期排序的陣列，一個事件日一筆。
 
+### 取用連結
+
+CDN 連結（需要替換年份）：
+
+```
+https://cdn.jsdelivr.net/gh/lis186/TaiwanTyphoonDays/data/{year}.json
+```
+
+2026 年資料連結：
+
+```
+https://cdn.jsdelivr.net/gh/lis186/TaiwanTyphoonDays/data/2026.json
+```
+
+jsDelivr 會快取分支路徑，新資料可能要等一段時間才會反映；需要固定版本時，請把路徑中的 `lis186/TaiwanTyphoonDays` 後加上 `@<commit>`。
+
 ## 資料格式
 
 ```json
