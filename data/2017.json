@@ -1018,11 +1018,11 @@
       },
       {
         "city": "花蓮縣",
-        "scope": "花蓮縣秀林鄉天祥、西寶、洛韶、關原地區",
+        "scope": "",
         "forDate": "20170729",
-        "work": "stop",
-        "school": "stop",
-        "period": "allDay",
+        "work": null,
+        "school": null,
+        "period": null,
         "from": "",
         "raw": "花蓮縣秀林鄉天祥、西寶、洛韶、關原地區今天十點起: 今天已達停止上班及上課標準。"
       },
@@ -2081,11 +2081,11 @@
       },
       {
         "city": "花蓮縣",
-        "scope": "花蓮縣秀林鄉天祥、西寶、洛韶地區",
+        "scope": "",
         "forDate": "20171015",
-        "work": "stop",
-        "school": "stop",
-        "period": "allDay",
+        "work": null,
+        "school": null,
+        "period": null,
         "from": "",
         "raw": "花蓮縣秀林鄉天祥、西寶、洛韶地區今天六點起至十二點: 今天上午已達停止上班及上課標準。"
       },

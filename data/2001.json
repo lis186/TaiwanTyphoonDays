@@ -271,7 +271,7 @@
         "scope": "",
         "forDate": "20010730",
         "work": "normal",
-        "school": "stop",
+        "school": "partial",
         "period": "allDay",
         "from": "",
         "raw": "今天照常辦公、國中以下停止上課。"
@@ -281,7 +281,7 @@
         "scope": "",
         "forDate": "20010730",
         "work": "normal",
-        "school": "stop",
+        "school": "partial",
         "period": "allDay",
         "from": "",
         "raw": "今天照常辦公、國中以下停止上課。"
@@ -291,7 +291,7 @@
         "scope": "",
         "forDate": "20010730",
         "work": "normal",
-        "school": "stop",
+        "school": "partial",
         "period": "allDay",
         "from": "",
         "raw": "今天照常辦公、國中以下停止上課。"
@@ -321,7 +321,7 @@
         "scope": "",
         "forDate": "20010730",
         "work": "normal",
-        "school": "stop",
+        "school": "partial",
         "period": "allDay",
         "from": "",
         "raw": "今天照常辦公、國中以下停止上課。"
@@ -470,7 +470,7 @@
         "scope": "",
         "forDate": "20010731",
         "work": "normal",
-        "school": "stop",
+        "school": "partial",
         "period": "allDay",
         "from": "",
         "raw": "今天照常辦公、國中以下停止上課。"
@@ -1407,7 +1407,7 @@
         "scope": "",
         "forDate": "20010919",
         "work": "normal",
-        "school": "stop",
+        "school": "partial",
         "period": "allDay",
         "from": "",
         "raw": "今天照常辦公、國中以下停止上課。"

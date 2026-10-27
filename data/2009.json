@@ -2481,11 +2481,11 @@
       },
       {
         "city": "宜蘭縣",
-        "scope": "三星鄉",
+        "scope": "",
         "forDate": "20091005",
-        "work": "stop",
-        "school": "stop",
-        "period": "allDay",
+        "work": null,
+        "school": null,
+        "period": null,
         "from": "",
         "raw": "三星鄉:今天停止上課、下午停止辦公。"
       },

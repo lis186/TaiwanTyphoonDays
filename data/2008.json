@@ -200,9 +200,9 @@
         "city": "宜蘭縣",
         "scope": "",
         "forDate": "20080717",
-        "work": "stop",
-        "school": "stop",
-        "period": "afternoon",
+        "work": null,
+        "school": null,
+        "period": null,
         "from": "",
         "raw": "今天下午3時後（含晚上）停止辦公、停止上課。"
       },
@@ -329,9 +329,9 @@
         "city": "苗栗縣",
         "scope": "",
         "forDate": "20080718",
-        "work": "stop",
-        "school": "stop",
-        "period": "afternoon",
+        "work": null,
+        "school": null,
+        "period": null,
         "from": "",
         "raw": "今天下午（含晚上）停止辦公、停止上課。"
       },
@@ -342,6 +342,16 @@
         "work": "stop",
         "school": "stop",
         "period": "morning",
+        "from": "",
+        "raw": "今天上午、下午停止辦公、停止上課。"
+      },
+      {
+        "city": "臺中市",
+        "scope": "",
+        "forDate": "20080718",
+        "work": "stop",
+        "school": "stop",
+        "period": "afternoon",
         "from": "",
         "raw": "今天上午、下午停止辦公、停止上課。"
       },
@@ -362,6 +372,16 @@
         "work": "stop",
         "school": "stop",
         "period": "morning",
+        "from": "",
+        "raw": "今天上午、下午停止辦公、停止上課。"
+      },
+      {
+        "city": "臺中縣",
+        "scope": "",
+        "forDate": "20080718",
+        "work": "stop",
+        "school": "stop",
+        "period": "afternoon",
         "from": "",
         "raw": "今天上午、下午停止辦公、停止上課。"
       },

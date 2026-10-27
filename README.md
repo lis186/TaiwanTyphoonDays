@@ -69,7 +69,7 @@ data/{西元年}.json
 | `scope` | 子區域（鄉鎮、村里、學校名等）；空字串表示整個縣市 |
 | `forDate` | 這筆記錄實際適用的日期 `YYYYMMDD` |
 | `work` | `stop`（停止上班）｜`normal`（照常上班）｜`null`（未解析） |
-| `school` | `stop`｜`normal`｜`partial`（僅部分學制停課，如「高中及高中以下停止上課」）｜`null` |
+| `school` | `stop`｜`normal`｜`partial`（僅部分學制停課，如「高中及高中以下」「國中以下」停止上課）｜`null` |
 | `period` | `allDay`｜`morning`｜`afternoon`｜`evening`｜`from`（自某時刻起）｜`null` |
 | `from` | `period` 為 `from` 時的 `HH:MM`（24 小時制），否則為空字串 |
 | `raw` | 該句原文，一律保留 |
@@ -93,7 +93,8 @@ data/{西元年}.json
 ## 已知問題
 
 * **102 年有 24 個事件無附件**，內容是高雄市桃源區、那瑪夏區個別學校的自由文字（標點與措辭不一致）。這些事件 `parsed` 為 `false`，`areas` 只有一筆，僅 `city` 與 `raw` 有值。
-* **有 28 個句子（共 19 種寫法）未解析**，分布在 14 個已解析的事件中。這些記錄的 `work`／`school`／`period` 為 `null`，請讀 `raw`。內容多為括號備註、「晚上6:00前停止」、以及擠在同一格而沒有分隔的學校清單。這些句子零碎，刻意不為它們增加規則，以免誤判。
+* **有 38 個句子（共 29 種寫法）未解析**，分布在 21 個已解析的事件中。這些記錄的 `work`／`school`／`period` 為 `null`，請讀 `raw`。內容多為括號備註、「晚上6:00前停止」、「下午（含晚上）」、上班與上課時段不同，以及擠在同一格而沒有分隔的學校清單。
+  解析器採**嚴格文法**：狀態句必須完整符合已知句型才會解析，否則一律保留 `raw`、不猜測。這些句子零碎，刻意不為它們增加規則，以免誤判；清單見 [`tests/known_unparsed.txt`](tests/known_unparsed.txt)。
 * **「尚未列入警戒區」「尚未宣布消息」共 524 句未收錄**，因為不含停班資訊。若某個事件整份都是這類句子，則 `areas` 為空陣列、`parsed` 為 `true`。
 * 原始公告是各縣市政府通報的彙整，內容以各縣市政府實際發布為準。
 
@@ -105,9 +106,16 @@ data/{西元年}.json
 python3 scripts/crawl_list.py   # 爬列表，產生 .cache/all_items.json
 python3 scripts/fetch_all.py    # 抓內頁與附件到 .cache/（已存在的不重抓）
 python3 scripts/parse.py        # 產生 data/{year}.json，加 --report 列出未解析的句子
+python3 -m unittest discover -s tests   # 驗證
 ```
 
 `.cache/` 為原始 HTML 快取，不納入版控。
+
+### 測試
+
+* `tests/test_parse.py`：各種句型的解析結果（含曾經解析錯誤的回歸案例）。
+* `tests/test_data.py`：`data/` 的欄位、值域與日期不變式。**其中 `FormatDrift` 是格式變動的警報**：更新後若出現 `tests/known_unparsed.txt` 以外的未解析句子，測試會失敗。請人工檢視，值得支援的就擴充 `parse.py`，否則把句子加進清單以接受為純原文。
+* `tests/audit.py`：對照 `.cache/` 的原始附件稽核（每筆 `raw` 都出現在原文、原文內容沒有被靜默丟失、標準句語意、日期合理性）。有 `.cache/` 時由 `test_data.py` 一併執行，沒有則略過。
 
 ## 授權
 

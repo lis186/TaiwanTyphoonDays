@@ -936,9 +936,9 @@
         "city": "宜蘭縣",
         "scope": "",
         "forDate": "20130821",
-        "work": "normal",
-        "school": "stop",
-        "period": "morning",
+        "work": null,
+        "school": null,
+        "period": null,
         "from": "",
         "raw": "今天上午照常上班、下午停止上班；"
       },
@@ -2249,11 +2249,11 @@
       },
       {
         "city": "高雄市",
-        "scope": "桃源區桃源國中、樟山國小、內門區金竹國小、溝坪國小",
+        "scope": "",
         "forDate": "20130830",
-        "work": "stop",
-        "school": "normal",
-        "period": "allDay",
+        "work": null,
+        "school": null,
+        "period": null,
         "from": "",
         "raw": "桃源區桃源國中、樟山國小、內門區金竹國小、溝坪國小:今日停止上班上課 美濃區美濃國小:停止上課、照常上班"
       },

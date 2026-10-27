@@ -49,39 +49,40 @@ def parse_updated(s):
     return f'{d}T{m.group(4)}' if m.group(4) else d
 
 
-def classify(seg):
-    if re.search(r'未達|照常', seg):
-        return 'normal'
-    if '高中' in seg and '停止' in seg:
-        return 'partial'
-    if re.search(r'已達|停止', seg):
-        return 'stop'
-    return None
+# Strict status grammar: a sentence is parsed only if the whole status text matches a known form.
+# Anything else is left unparsed (raw kept) rather than guessed.
+WORK = r'(?:上班|辦公)'
+VERB = {'停止': 'stop', '照常': 'normal', '已達': 'stop', '未達': 'normal'}
+LEVEL = r'(?:高中|國中|國小|高職)[^、停]{0,10}以下'  # e.g. 高中及高中以下 / 國中以下
+STATUS_FORMS = [
+    (re.compile(rf'(已達|未達)停止{WORK}(?:及|、停止)上課標準'), lambda m: (VERB[m[1]], VERB[m[1]])),
+    (re.compile(rf'(已達|未達)停止{WORK}、(已達|未達)停止上課標準'), lambda m: (VERB[m[1]], VERB[m[2]])),
+    (re.compile(rf'(停止|照常){WORK}(?:、(停止|照常))?上課'), lambda m: (VERB[m[1]], VERB[m[2] or m[1]])),
+    (re.compile(rf'照常{WORK}、{LEVEL}(?:學校)?停止上課'), lambda m: ('normal', 'partial')),
+]
+PERIOD_LIST = r'(?:上午|中午|下午|晚上)(?:(?:及|、)(?:上午|中午|下午|晚上))*'
 
 
 def parse_status(rest):
-    segs = [x for x in re.split(r'、', rest.strip('。 ，')) if x]
-    if len(segs) == 1:
-        v = classify(segs[0])
-        both = re.search(r'上班|辦公', segs[0]) and '上課' in segs[0]
-        return (v, v) if v and both else (None, None)
-    if len(segs) == 2:
-        w, s = classify(segs[0]), classify(segs[1])
-        return (w, s) if w and s else (None, None)
+    rest = re.sub(r'[（(][^）)]*[）)]$', '', rest.strip('。 ，；'))  # trailing remark, e.g. (上午未達)
+    for pat, build in STATUS_FORMS:
+        m = pat.fullmatch(rest)
+        if m:
+            return build(m)
     return None, None
 
 
 def parse_time(prefix):
-    """prefix like '下午01:00起' / '晚上6:00起' / '下午4時起' -> (period, from) or None."""
+    """prefix like '下午01:00起狀態...' -> (period, from, end_index) or None. '前' (until) -> ('until', None, end)."""
     m = re.match(r'(上午|中午|下午|晚上)?(\d{1,2})(?::(\d{2})|時(?:(\d{1,2})分)?)(起|前)', prefix)
     if not m:
         return None
     ap, h, mi, tail = m.group(1), int(m.group(2)), int(m.group(3) or m.group(4) or 0), m.group(5)
     if tail == '前':
-        return 'until', None
+        return 'until', None, m.end()
     if ap in ('下午', '晚上') and h < 12:
         h += 12
-    return 'from', f'{h:02d}:{mi:02d}'
+    return 'from', f'{h:02d}:{mi:02d}', m.end()
 
 
 def parse_sentence(sent, date):
@@ -103,25 +104,23 @@ def parse_sentence(sent, date):
         part = re.sub(r'(起|前)，', r'\1', part).replace('，', '、')
         t = parse_time(part)
         if t:
-            period, frm = t
+            period, frm, end = t
             if period == 'until':
                 return None
-            status = re.sub(r'^(上午|中午|下午|晚上)?\d{1,2}(?::\d{2}|時)起', '', part)
-            work, school = parse_status(status)
+            work, school = parse_status(part[end:])
             out.append((scope, for_date, work, school, period, frm))
             continue
-        m = re.match(r'^((?:上午|中午|下午|晚上)(?:及(?:上午|中午|下午|晚上))*)', part)
+        m = re.match(PERIOD_LIST, part)
         if m:
-            status = part[m.end():]
-            work, school = parse_status(status)
-            for p in re.findall(r'上午|中午|下午|晚上', m.group(1)):
+            work, school = parse_status(part[m.end():])
+            for p in re.findall(r'上午|中午|下午|晚上', m.group()):
                 if p == '中午':
                     return None
                 out.append((scope, for_date, work, school, PERIODS[p], ''))
             continue
         work, school = parse_status(part)
         out.append((scope, for_date, work, school, 'allDay', ''))
-    if any(w is None for _, _, w, _, _, _ in out):
+    if any(w is None or sc is None for _, _, w, sc, _, _ in out):
         return None
     return out
 

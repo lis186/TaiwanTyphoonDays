@@ -1067,9 +1067,9 @@
         "city": "臺東縣",
         "scope": "",
         "forDate": "20060724",
-        "work": "stop",
-        "school": "stop",
-        "period": "afternoon",
+        "work": null,
+        "school": null,
+        "period": null,
         "from": "",
         "raw": "今天下午 4:00停止辦公、停止上課。"
       },
@@ -1386,9 +1386,9 @@
         "city": "金門縣",
         "scope": "",
         "forDate": "20060725",
-        "work": "stop",
-        "school": "stop",
-        "period": "afternoon",
+        "work": null,
+        "school": null,
+        "period": null,
         "from": "",
         "raw": "今天下午 2:30停止辦公、國中及國中以下,下午停止上課。"
       }

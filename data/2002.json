@@ -110,9 +110,9 @@
         "city": "雲林縣",
         "scope": "",
         "forDate": "20020709",
-        "work": "normal",
-        "school": "partial",
-        "period": "allDay",
+        "work": null,
+        "school": null,
+        "period": null,
         "from": "",
         "raw": "今天照常辦公、下午高中及高中以下停止上課。"
       },
