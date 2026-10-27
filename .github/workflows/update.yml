@@ -2,7 +2,10 @@ name: update-data
 
 on:
   schedule:
-    - cron: '17 19 * * *' # 03:17 Asia/Taipei every day
+    # 18:37 Asia/Taipei every day. DGPA adds an event to its history list 0-9 days after the event (mostly the
+    # next working day), so run after office hours; the counties' own announcements (evening before, or up to
+    # 04:30 that morning) are not what this repo reads.
+    - cron: '37 10 * * *'
   workflow_dispatch:
 
 permissions:
