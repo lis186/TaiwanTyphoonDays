@@ -2,7 +2,7 @@
 
 紀錄臺灣歷次「天然災害停止上班上課」（俗稱颱風假）的 JSON 資料，內容包含日期、縣市、子區域、停止上班／上課情形與時段。
 
-姊妹專案：[TaiwanCalendar](https://github.com/ruyut/TaiwanCalendar)（政府行政機關辦公日曆表）。
+本專案的做法（依年份分檔的 JSON、以 jsDelivr 提供）參考了 [ruyut/TaiwanCalendar](https://github.com/ruyut/TaiwanCalendar)（政府行政機關辦公日曆表）。兩者是不同作者的獨立專案，沒有隸屬關係。
 
 ## 關於
 
