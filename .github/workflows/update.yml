@@ -1,0 +1,69 @@
+name: update-data
+
+on:
+  schedule:
+    - cron: '17 19 * * *' # 03:17 Asia/Taipei every day
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # .cache/ holds the downloaded announcements. Without it the first run re-downloads everything (~15 min).
+      - name: Restore source cache
+        uses: actions/cache/restore@v4
+        with:
+          path: .cache
+          key: dgpa-cache-${{ github.run_id }}
+          restore-keys: dgpa-cache-
+
+      - name: Crawl list
+        run: python3 scripts/crawl_list.py
+
+      - name: Fetch new announcements
+        run: python3 scripts/fetch_all.py
+
+      - name: Save source cache
+        if: ${{ always() && !cancelled() }}
+        uses: actions/cache/save@v4
+        with:
+          path: .cache
+          key: dgpa-cache-${{ github.run_id }}
+
+      - name: Parse
+        run: python3 scripts/parse.py
+
+      # These must pass before anything is published.
+      - name: Validate
+        run: cd tests && python3 -m unittest test_parse test_data.Schema test_data.AuditAgainstCache
+
+      - name: Commit and push
+        run: |
+          if git diff --quiet -- data; then
+            echo "no data changes"
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data
+          git commit -m "data: update $(date -u +%F)"
+          git push
+
+      # Runs after publishing: a sentence the parser cannot read fails the run so that you get notified.
+      # Review it, then extend scripts/parse.py or add the sentence to tests/known_unparsed.txt.
+      - name: Format-drift check
+        run: cd tests && python3 -m unittest test_data.FormatDrift

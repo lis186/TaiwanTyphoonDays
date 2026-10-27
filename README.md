@@ -119,6 +119,17 @@ python3 -m unittest discover -s tests   # 驗證
 * `tests/audit.py`：對照 `.cache/` 的原始附件稽核（每筆 `raw` 都出現在原文、原文內容沒有被靜默丟失、標準句語意、日期合理性）。有 `.cache/` 時由 `test_data.py` 一併執行，沒有則略過。
 * `tests/audit_full.py <閘門>`：更完整的全量稽核（不抽樣、不連網），包含涵蓋率、快取完整性、事件日與附件標頭日期／星期、縣市列與改制日、時刻換算、預告與當日公告的一致性、檔案衛生、README 數字。`tests/audit_english.py` 以英文版附件做獨立交叉比對（逐縣市逐日比對「有無停班停課」）；不比對時段與子區域細節。
 
+### 自動更新
+
+`.github/workflows/update.yml` 每天（臺灣時間約 03:17）自動執行，也可在 Actions 頁面手動觸發：
+
+1. 只讀列表第一頁；若整頁都是新事件才繼續往後讀，所以平常只需一次列表請求。
+2. 只下載新增事件的內頁與附件（`.cache/` 以 Actions cache 保存）。
+3. 解析並執行驗證；通過後才 commit `data/`。
+4. 最後執行 `FormatDrift` 檢查。若出現無法解析的新句型，**資料仍會發布，但該次執行會標為失敗**，GitHub 會通知你。請檢視該句，決定擴充 `scripts/parse.py`，或把句子加進 `tests/known_unparsed.txt`。
+
+若 Actions cache 遺失（超過 7 天沒有執行），下一次會重新下載全部（約 15 分鐘）。
+
 ## 授權
 
 ### 程式碼
