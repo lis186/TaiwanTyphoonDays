@@ -1,0 +1,1767 @@
+[
+  {
+    "date": "20050718",
+    "publishedAt": "20050718",
+    "updatedAt": "2005-07-18",
+    "sourceUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=6979",
+    "parsed": true,
+    "areas": [
+      {
+        "city": "基隆市",
+        "scope": "",
+        "forDate": "20050718",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      },
+      {
+        "city": "臺北市",
+        "scope": "",
+        "forDate": "20050718",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      },
+      {
+        "city": "臺北縣",
+        "scope": "",
+        "forDate": "20050718",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      },
+      {
+        "city": "桃園縣",
+        "scope": "",
+        "forDate": "20050718",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      },
+      {
+        "city": "新竹市",
+        "scope": "",
+        "forDate": "20050718",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      },
+      {
+        "city": "新竹縣",
+        "scope": "",
+        "forDate": "20050718",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      },
+      {
+        "city": "苗栗縣",
+        "scope": "",
+        "forDate": "20050718",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      },
+      {
+        "city": "臺中市",
+        "scope": "",
+        "forDate": "20050718",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      },
+      {
+        "city": "臺中縣",
+        "scope": "",
+        "forDate": "20050718",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      },
+      {
+        "city": "彰化縣",
+        "scope": "",
+        "forDate": "20050718",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      },
+      {
+        "city": "雲林縣",
+        "scope": "",
+        "forDate": "20050718",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      },
+      {
+        "city": "南投縣",
+        "scope": "",
+        "forDate": "20050718",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      },
+      {
+        "city": "嘉義市",
+        "scope": "",
+        "forDate": "20050718",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      },
+      {
+        "city": "嘉義縣",
+        "scope": "",
+        "forDate": "20050718",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      },
+      {
+        "city": "臺南市",
+        "scope": "",
+        "forDate": "20050718",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      },
+      {
+        "city": "臺南縣",
+        "scope": "",
+        "forDate": "20050718",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      },
+      {
+        "city": "高雄市",
+        "scope": "",
+        "forDate": "20050718",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      },
+      {
+        "city": "高雄縣",
+        "scope": "",
+        "forDate": "20050718",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      },
+      {
+        "city": "屏東縣",
+        "scope": "",
+        "forDate": "20050718",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      },
+      {
+        "city": "宜蘭縣",
+        "scope": "",
+        "forDate": "20050718",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      },
+      {
+        "city": "花蓮縣",
+        "scope": "",
+        "forDate": "20050718",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      },
+      {
+        "city": "臺東縣",
+        "scope": "",
+        "forDate": "20050718",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      },
+      {
+        "city": "澎湖縣",
+        "scope": "",
+        "forDate": "20050718",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      },
+      {
+        "city": "連江縣",
+        "scope": "",
+        "forDate": "20050718",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      },
+      {
+        "city": "金門縣",
+        "scope": "",
+        "forDate": "20050718",
+        "work": "normal",
+        "school": "normal",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天照常辦公、照常上課。"
+      }
+    ]
+  },
+  {
+    "date": "20050719",
+    "publishedAt": "20050719",
+    "updatedAt": "2005-07-19T17:21:02",
+    "sourceUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=6978",
+    "parsed": true,
+    "areas": [
+      {
+        "city": "基隆市",
+        "scope": "",
+        "forDate": "20050719",
+        "work": "normal",
+        "school": "normal",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天照常辦公、照常上課。"
+      },
+      {
+        "city": "臺北市",
+        "scope": "",
+        "forDate": "20050719",
+        "work": "normal",
+        "school": "normal",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天照常辦公、照常上課。"
+      },
+      {
+        "city": "臺北縣",
+        "scope": "",
+        "forDate": "20050719",
+        "work": "normal",
+        "school": "normal",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天照常辦公、照常上課。"
+      },
+      {
+        "city": "桃園縣",
+        "scope": "",
+        "forDate": "20050719",
+        "work": "normal",
+        "school": "normal",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天照常辦公、照常上課。"
+      },
+      {
+        "city": "新竹市",
+        "scope": "",
+        "forDate": "20050719",
+        "work": "normal",
+        "school": "normal",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天照常辦公、照常上課。"
+      },
+      {
+        "city": "新竹縣",
+        "scope": "",
+        "forDate": "20050719",
+        "work": "normal",
+        "school": "normal",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天照常辦公、照常上課。"
+      },
+      {
+        "city": "苗栗縣",
+        "scope": "",
+        "forDate": "20050719",
+        "work": "normal",
+        "school": "partial",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天照常辦公、高中及高中以下停止上課。"
+      },
+      {
+        "city": "苗栗縣",
+        "scope": "泰安鄉",
+        "forDate": "20050719",
+        "work": "stop",
+        "school": "stop",
+        "period": "afternoon",
+        "from": "",
+        "raw": "泰安鄉:今天下午停止辦公、停止上課。"
+      },
+      {
+        "city": "臺中市",
+        "scope": "",
+        "forDate": "20050719",
+        "work": "normal",
+        "school": "normal",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天照常辦公、照常上課。"
+      },
+      {
+        "city": "臺中縣",
+        "scope": "",
+        "forDate": "20050719",
+        "work": "normal",
+        "school": "partial",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天照常辦公、高中及高中以下停止上課。"
+      },
+      {
+        "city": "臺中縣",
+        "scope": "和平鄉",
+        "forDate": "20050719",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "和平鄉:今天停止辦公、停止上課。"
+      },
+      {
+        "city": "彰化縣",
+        "scope": "",
+        "forDate": "20050719",
+        "work": "normal",
+        "school": "normal",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天照常辦公、照常上課。"
+      },
+      {
+        "city": "雲林縣",
+        "scope": "",
+        "forDate": "20050719",
+        "work": "normal",
+        "school": "partial",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天照常辦公、高中及高中以下停止上課。"
+      },
+      {
+        "city": "南投縣",
+        "scope": "",
+        "forDate": "20050719",
+        "work": "normal",
+        "school": "partial",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天照常辦公、高中及高中以下停止上課。"
+      },
+      {
+        "city": "嘉義市",
+        "scope": "",
+        "forDate": "20050719",
+        "work": "normal",
+        "school": "partial",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天照常辦公、高中及高中以下停止上課。"
+      },
+      {
+        "city": "嘉義縣",
+        "scope": "",
+        "forDate": "20050719",
+        "work": "normal",
+        "school": "partial",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天照常辦公、高中及高中以下停止上課。"
+      },
+      {
+        "city": "臺南市",
+        "scope": "",
+        "forDate": "20050719",
+        "work": "normal",
+        "school": "partial",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天照常辦公、高中及高中以下停止上課。"
+      },
+      {
+        "city": "臺南縣",
+        "scope": "",
+        "forDate": "20050719",
+        "work": "normal",
+        "school": "partial",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天照常辦公、高中及高中以下停止上課。"
+      },
+      {
+        "city": "高雄市",
+        "scope": "",
+        "forDate": "20050719",
+        "work": "normal",
+        "school": "partial",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天照常辦公、高中及高中以下停止上課。"
+      },
+      {
+        "city": "高雄縣",
+        "scope": "",
+        "forDate": "20050719",
+        "work": "normal",
+        "school": "partial",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天照常辦公、高中及高中以下停止上課。"
+      },
+      {
+        "city": "屏東縣",
+        "scope": "",
+        "forDate": "20050719",
+        "work": "normal",
+        "school": "partial",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天照常辦公、高中及高中以下停止上課。"
+      },
+      {
+        "city": "屏東縣",
+        "scope": "恆春鎮",
+        "forDate": "20050719",
+        "work": "stop",
+        "school": "stop",
+        "period": "afternoon",
+        "from": "",
+        "raw": "恆春鎮:今天下午停止辦公、停止上課。"
+      },
+      {
+        "city": "屏東縣",
+        "scope": "車城鄉",
+        "forDate": "20050719",
+        "work": "stop",
+        "school": "stop",
+        "period": "afternoon",
+        "from": "",
+        "raw": "車城鄉:今天下午停止辦公、停止上課。"
+      },
+      {
+        "city": "屏東縣",
+        "scope": "滿州鄉",
+        "forDate": "20050719",
+        "work": "stop",
+        "school": "stop",
+        "period": "afternoon",
+        "from": "",
+        "raw": "滿州鄉:今天下午停止辦公、停止上課。"
+      },
+      {
+        "city": "屏東縣",
+        "scope": "枋山鄉",
+        "forDate": "20050719",
+        "work": "stop",
+        "school": "stop",
+        "period": "afternoon",
+        "from": "",
+        "raw": "枋山鄉:今天下午停止辦公、停止上課。"
+      },
+      {
+        "city": "屏東縣",
+        "scope": "獅子鄉",
+        "forDate": "20050719",
+        "work": "stop",
+        "school": "stop",
+        "period": "afternoon",
+        "from": "",
+        "raw": "獅子鄉:今天下午停止辦公、停止上課。"
+      },
+      {
+        "city": "屏東縣",
+        "scope": "牡丹鄉",
+        "forDate": "20050719",
+        "work": "stop",
+        "school": "stop",
+        "period": "afternoon",
+        "from": "",
+        "raw": "牡丹鄉:今天下午停止辦公、停止上課。"
+      },
+      {
+        "city": "宜蘭縣",
+        "scope": "",
+        "forDate": "20050719",
+        "work": "normal",
+        "school": "normal",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天照常辦公、照常上課。"
+      },
+      {
+        "city": "宜蘭縣",
+        "scope": "蘇澳鎮",
+        "forDate": "20050719",
+        "work": "stop",
+        "school": "stop",
+        "period": "afternoon",
+        "from": "",
+        "raw": "蘇澳鎮:今天下午停止辦公、停止上課。"
+      },
+      {
+        "city": "花蓮縣",
+        "scope": "",
+        "forDate": "20050719",
+        "work": "normal",
+        "school": "normal",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天照常辦公、照常上課。"
+      },
+      {
+        "city": "臺東縣",
+        "scope": "",
+        "forDate": "20050719",
+        "work": "normal",
+        "school": "partial",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天照常辦公、高中及高中以下停止上課。"
+      },
+      {
+        "city": "臺東縣",
+        "scope": "成功鎮",
+        "forDate": "20050719",
+        "work": "stop",
+        "school": "stop",
+        "period": "afternoon",
+        "from": "",
+        "raw": "成功鎮:今天下午停止辦公、停止上課。"
+      },
+      {
+        "city": "臺東縣",
+        "scope": "東河鄉",
+        "forDate": "20050719",
+        "work": "stop",
+        "school": "stop",
+        "period": "afternoon",
+        "from": "",
+        "raw": "東河鄉:今天下午停止辦公、停止上課。"
+      },
+      {
+        "city": "臺東縣",
+        "scope": "長濱鄉",
+        "forDate": "20050719",
+        "work": "stop",
+        "school": "stop",
+        "period": "afternoon",
+        "from": "",
+        "raw": "長濱鄉:今天下午停止辦公、停止上課。"
+      },
+      {
+        "city": "臺東縣",
+        "scope": "大武鄉",
+        "forDate": "20050719",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "大武鄉:今天停止辦公、停止上課。"
+      },
+      {
+        "city": "臺東縣",
+        "scope": "綠島鄉",
+        "forDate": "20050719",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "綠島鄉:今天停止辦公、停止上課。"
+      },
+      {
+        "city": "臺東縣",
+        "scope": "金峰鄉",
+        "forDate": "20050719",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "金峰鄉:今天停止辦公、停止上課。"
+      },
+      {
+        "city": "臺東縣",
+        "scope": "達仁鄉",
+        "forDate": "20050719",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "達仁鄉:今天停止辦公、停止上課。"
+      },
+      {
+        "city": "臺東縣",
+        "scope": "蘭嶼鄉",
+        "forDate": "20050719",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "蘭嶼鄉:今天停止辦公、停止上課。"
+      },
+      {
+        "city": "澎湖縣",
+        "scope": "",
+        "forDate": "20050719",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      },
+      {
+        "city": "連江縣",
+        "scope": "",
+        "forDate": "20050719",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      },
+      {
+        "city": "金門縣",
+        "scope": "",
+        "forDate": "20050719",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      }
+    ]
+  },
+  {
+    "date": "20050805",
+    "publishedAt": "20050805",
+    "updatedAt": "2005-08-05",
+    "sourceUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=6977",
+    "parsed": true,
+    "areas": [
+      {
+        "city": "基隆市",
+        "scope": "",
+        "forDate": "20050805",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      },
+      {
+        "city": "臺北市",
+        "scope": "",
+        "forDate": "20050805",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      },
+      {
+        "city": "臺北縣",
+        "scope": "",
+        "forDate": "20050805",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      },
+      {
+        "city": "桃園縣",
+        "scope": "",
+        "forDate": "20050805",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      },
+      {
+        "city": "新竹市",
+        "scope": "",
+        "forDate": "20050805",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      },
+      {
+        "city": "新竹縣",
+        "scope": "",
+        "forDate": "20050805",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      },
+      {
+        "city": "苗栗縣",
+        "scope": "",
+        "forDate": "20050805",
+        "work": "normal",
+        "school": "partial",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天照常辦公、高中及高中以下停止上課。"
+      },
+      {
+        "city": "苗栗縣",
+        "scope": "南庄鄉",
+        "forDate": "20050805",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "南庄鄉：今天停止辦公、停止上課。"
+      },
+      {
+        "city": "臺中市",
+        "scope": "",
+        "forDate": "20050805",
+        "work": "normal",
+        "school": "normal",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天照常辦公、照常上課。"
+      },
+      {
+        "city": "臺中縣",
+        "scope": "",
+        "forDate": "20050805",
+        "work": "normal",
+        "school": "normal",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天照常辦公、照常上課。"
+      },
+      {
+        "city": "臺中縣",
+        "scope": "和平鄉",
+        "forDate": "20050805",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "和平鄉：今天停止辦公、停止上課。"
+      },
+      {
+        "city": "彰化縣",
+        "scope": "",
+        "forDate": "20050805",
+        "work": "normal",
+        "school": "normal",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天照常辦公、照常上課。"
+      },
+      {
+        "city": "雲林縣",
+        "scope": "",
+        "forDate": "20050805",
+        "work": "normal",
+        "school": "normal",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天照常辦公、照常上課。"
+      },
+      {
+        "city": "南投縣",
+        "scope": "",
+        "forDate": "20050805",
+        "work": "normal",
+        "school": "normal",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天照常辦公、照常上課。"
+      },
+      {
+        "city": "南投縣",
+        "scope": "信義鄉",
+        "forDate": "20050805",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "信義鄉：今天停止辦公、停止上課。"
+      },
+      {
+        "city": "南投縣",
+        "scope": "仁愛鄉",
+        "forDate": "20050805",
+        "work": "stop",
+        "school": "stop",
+        "period": "afternoon",
+        "from": "",
+        "raw": "仁愛鄉：今天下午停止辦公、停止上課。"
+      },
+      {
+        "city": "嘉義市",
+        "scope": "",
+        "forDate": "20050805",
+        "work": "normal",
+        "school": "normal",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天照常辦公、照常上課。"
+      },
+      {
+        "city": "嘉義縣",
+        "scope": "",
+        "forDate": "20050805",
+        "work": "normal",
+        "school": "normal",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天照常辦公、照常上課。"
+      },
+      {
+        "city": "臺南市",
+        "scope": "",
+        "forDate": "20050805",
+        "work": "normal",
+        "school": "normal",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天照常辦公、照常上課。"
+      },
+      {
+        "city": "臺南縣",
+        "scope": "",
+        "forDate": "20050805",
+        "work": "normal",
+        "school": "normal",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天照常辦公、照常上課。"
+      },
+      {
+        "city": "高雄市",
+        "scope": "",
+        "forDate": "20050805",
+        "work": "normal",
+        "school": "normal",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天照常辦公、照常上課。"
+      },
+      {
+        "city": "高雄縣",
+        "scope": "",
+        "forDate": "20050805",
+        "work": "normal",
+        "school": "normal",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天照常辦公、照常上課。"
+      },
+      {
+        "city": "屏東縣",
+        "scope": "",
+        "forDate": "20050805",
+        "work": "normal",
+        "school": "normal",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天照常辦公、照常上課。"
+      },
+      {
+        "city": "宜蘭縣",
+        "scope": "",
+        "forDate": "20050805",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      },
+      {
+        "city": "花蓮縣",
+        "scope": "",
+        "forDate": "20050805",
+        "work": "normal",
+        "school": "normal",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天照常辦公、照常上課。"
+      },
+      {
+        "city": "臺東縣",
+        "scope": "",
+        "forDate": "20050805",
+        "work": "normal",
+        "school": "normal",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天照常辦公、照常上課。"
+      },
+      {
+        "city": "澎湖縣",
+        "scope": "",
+        "forDate": "20050805",
+        "work": "normal",
+        "school": "normal",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天照常辦公、照常上課。"
+      },
+      {
+        "city": "連江縣",
+        "scope": "",
+        "forDate": "20050805",
+        "work": "normal",
+        "school": "normal",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天照常辦公、照常上課。"
+      },
+      {
+        "city": "金門縣",
+        "scope": "",
+        "forDate": "20050805",
+        "work": "normal",
+        "school": "normal",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天照常辦公、照常上課。"
+      }
+    ]
+  },
+  {
+    "date": "20050831",
+    "publishedAt": "20050831",
+    "updatedAt": "",
+    "sourceUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=6976",
+    "parsed": true,
+    "areas": [
+      {
+        "city": "基隆市",
+        "scope": "",
+        "forDate": "20050831",
+        "work": "stop",
+        "school": "stop",
+        "period": "evening",
+        "from": "",
+        "raw": "今天晚上停止辦公、停止上課。"
+      },
+      {
+        "city": "基隆市",
+        "scope": "",
+        "forDate": "20050831",
+        "work": null,
+        "school": null,
+        "period": null,
+        "from": "",
+        "raw": "（下午 4時後停止辦公上課）"
+      },
+      {
+        "city": "臺北市",
+        "scope": "",
+        "forDate": "20050831",
+        "work": "stop",
+        "school": "stop",
+        "period": "evening",
+        "from": "",
+        "raw": "今天晚上停止辦公、停止上課。"
+      },
+      {
+        "city": "臺北市",
+        "scope": "",
+        "forDate": "20050831",
+        "work": null,
+        "school": null,
+        "period": null,
+        "from": "",
+        "raw": "（下午 4時後停止辦公上課）"
+      },
+      {
+        "city": "臺北縣",
+        "scope": "",
+        "forDate": "20050831",
+        "work": "normal",
+        "school": "partial",
+        "period": "afternoon",
+        "from": "",
+        "raw": "今天下午照常辦公、高中及高中以下停止上課。"
+      },
+      {
+        "city": "臺北縣",
+        "scope": "三峽鎮",
+        "forDate": "20050831",
+        "work": "stop",
+        "school": "stop",
+        "period": "afternoon",
+        "from": "",
+        "raw": "三峽鎮 :今天下午停止辦公、停止上課。"
+      },
+      {
+        "city": "臺北縣",
+        "scope": "瑞芳鎮",
+        "forDate": "20050831",
+        "work": "stop",
+        "school": "stop",
+        "period": "afternoon",
+        "from": "",
+        "raw": "瑞芳鎮:今天下午停止辦公、停止上課。"
+      },
+      {
+        "city": "臺北縣",
+        "scope": "林口鄉",
+        "forDate": "20050831",
+        "work": "stop",
+        "school": "stop",
+        "period": "afternoon",
+        "from": "",
+        "raw": "林口鄉:今天下午停止辦公、停止上課。"
+      },
+      {
+        "city": "臺北縣",
+        "scope": "石碇鄉",
+        "forDate": "20050831",
+        "work": "stop",
+        "school": "stop",
+        "period": "afternoon",
+        "from": "",
+        "raw": "石碇鄉:今天下午停止辦公、停止上課。"
+      },
+      {
+        "city": "臺北縣",
+        "scope": "坪林鄉",
+        "forDate": "20050831",
+        "work": "stop",
+        "school": "stop",
+        "period": "afternoon",
+        "from": "",
+        "raw": "坪林鄉:今天下午停止辦公、停止上課。"
+      },
+      {
+        "city": "臺北縣",
+        "scope": "三芝鄉",
+        "forDate": "20050831",
+        "work": "stop",
+        "school": "stop",
+        "period": "afternoon",
+        "from": "",
+        "raw": "三芝鄉:今天下午停止辦公、停止上課。"
+      },
+      {
+        "city": "臺北縣",
+        "scope": "石門鄉",
+        "forDate": "20050831",
+        "work": "stop",
+        "school": "stop",
+        "period": "afternoon",
+        "from": "",
+        "raw": "石門鄉:今天下午停止辦公、停止上課。"
+      },
+      {
+        "city": "臺北縣",
+        "scope": "雙溪鄉",
+        "forDate": "20050831",
+        "work": "stop",
+        "school": "stop",
+        "period": "afternoon",
+        "from": "",
+        "raw": "雙溪鄉:今天下午停止辦公、停止上課。"
+      },
+      {
+        "city": "臺北縣",
+        "scope": "貢寮鄉",
+        "forDate": "20050831",
+        "work": "stop",
+        "school": "stop",
+        "period": "afternoon",
+        "from": "",
+        "raw": "貢寮鄉:今天下午停止辦公、停止上課。"
+      },
+      {
+        "city": "臺北縣",
+        "scope": "金山鄉",
+        "forDate": "20050831",
+        "work": "stop",
+        "school": "stop",
+        "period": "afternoon",
+        "from": "",
+        "raw": "金山鄉:今天下午停止辦公、停止上課。"
+      },
+      {
+        "city": "臺北縣",
+        "scope": "萬里鄉",
+        "forDate": "20050831",
+        "work": "stop",
+        "school": "stop",
+        "period": "afternoon",
+        "from": "",
+        "raw": "萬里鄉:今天下午停止辦公、停止上課。"
+      },
+      {
+        "city": "臺北縣",
+        "scope": "烏來鄉",
+        "forDate": "20050831",
+        "work": "stop",
+        "school": "stop",
+        "period": "afternoon",
+        "from": "",
+        "raw": "烏來鄉:今天下午停止辦公、停止上課。"
+      },
+      {
+        "city": "臺北縣",
+        "scope": "",
+        "forDate": "20050831",
+        "work": null,
+        "school": null,
+        "period": null,
+        "from": "",
+        "raw": "（下午 4時後停止辦公上課）"
+      },
+      {
+        "city": "桃園縣",
+        "scope": "",
+        "forDate": "20050831",
+        "work": "stop",
+        "school": "stop",
+        "period": "evening",
+        "from": "",
+        "raw": "今天晚上停止辦公、停止上課。"
+      },
+      {
+        "city": "桃園縣",
+        "scope": "",
+        "forDate": "20050831",
+        "work": null,
+        "school": null,
+        "period": null,
+        "from": "",
+        "raw": "（下午 4時後停止辦公上課）"
+      },
+      {
+        "city": "新竹市",
+        "scope": "",
+        "forDate": "20050831",
+        "work": "stop",
+        "school": "stop",
+        "period": "evening",
+        "from": "",
+        "raw": "今天晚上停止辦公、停止上課。"
+      },
+      {
+        "city": "新竹市",
+        "scope": "",
+        "forDate": "20050831",
+        "work": null,
+        "school": null,
+        "period": null,
+        "from": "",
+        "raw": "（下午 4時後停止辦公上課）"
+      },
+      {
+        "city": "新竹縣",
+        "scope": "",
+        "forDate": "20050831",
+        "work": "stop",
+        "school": "stop",
+        "period": "evening",
+        "from": "",
+        "raw": "今天晚上停止辦公、停止上課。"
+      },
+      {
+        "city": "新竹縣",
+        "scope": "尖石鄉",
+        "forDate": "20050831",
+        "work": "normal",
+        "school": "partial",
+        "period": "afternoon",
+        "from": "",
+        "raw": "尖石鄉 :今天下午照常辦公、高中及高中以下停止上課。"
+      },
+      {
+        "city": "新竹縣",
+        "scope": "五峰鄉",
+        "forDate": "20050831",
+        "work": "normal",
+        "school": "partial",
+        "period": "afternoon",
+        "from": "",
+        "raw": "五峰鄉:今天下午照常辦公、高中及高中以下停止上課。"
+      },
+      {
+        "city": "新竹縣",
+        "scope": "",
+        "forDate": "20050831",
+        "work": null,
+        "school": null,
+        "period": null,
+        "from": "",
+        "raw": "（下午 4時後停止辦公上課）"
+      },
+      {
+        "city": "苗栗縣",
+        "scope": "",
+        "forDate": "20050831",
+        "work": "stop",
+        "school": "stop",
+        "period": "evening",
+        "from": "",
+        "raw": "今天晚上停止辦公、停止上課。"
+      },
+      {
+        "city": "苗栗縣",
+        "scope": "卓蘭鎮",
+        "forDate": "20050831",
+        "work": "stop",
+        "school": "stop",
+        "period": "afternoon",
+        "from": "",
+        "raw": "卓蘭鎮 :今天下午停止辦公、停止上課。"
+      },
+      {
+        "city": "苗栗縣",
+        "scope": "獅潭鄉",
+        "forDate": "20050831",
+        "work": "stop",
+        "school": "stop",
+        "period": "afternoon",
+        "from": "",
+        "raw": "獅潭鄉:今天下午停止辦公、停止上課。"
+      },
+      {
+        "city": "苗栗縣",
+        "scope": "",
+        "forDate": "20050831",
+        "work": null,
+        "school": null,
+        "period": null,
+        "from": "",
+        "raw": "（下午 3時後停止辦公上課）"
+      },
+      {
+        "city": "臺中市",
+        "scope": "",
+        "forDate": "20050831",
+        "work": "stop",
+        "school": "stop",
+        "period": "afternoon",
+        "from": "",
+        "raw": "今天下午停止辦公、停止上課。"
+      },
+      {
+        "city": "臺中縣",
+        "scope": "",
+        "forDate": "20050831",
+        "work": "stop",
+        "school": "stop",
+        "period": "afternoon",
+        "from": "",
+        "raw": "今天下午停止辦公、停止上課。"
+      },
+      {
+        "city": "彰化縣",
+        "scope": "",
+        "forDate": "20050831",
+        "work": "stop",
+        "school": "stop",
+        "period": "evening",
+        "from": "",
+        "raw": "今天晚上停止辦公、停止上課。"
+      },
+      {
+        "city": "彰化縣",
+        "scope": "",
+        "forDate": "20050831",
+        "work": null,
+        "school": null,
+        "period": null,
+        "from": "",
+        "raw": "（下午 4時後停止辦公上課）"
+      },
+      {
+        "city": "雲林縣",
+        "scope": "",
+        "forDate": "20050831",
+        "work": "normal",
+        "school": "normal",
+        "period": "afternoon",
+        "from": "",
+        "raw": "今天下午照常辦公、照常上課。"
+      },
+      {
+        "city": "南投縣",
+        "scope": "",
+        "forDate": "20050831",
+        "work": "stop",
+        "school": "stop",
+        "period": "afternoon",
+        "from": "",
+        "raw": "今天下午停止辦公、停止上課。"
+      },
+      {
+        "city": "嘉義市",
+        "scope": "",
+        "forDate": "20050831",
+        "work": "normal",
+        "school": "normal",
+        "period": "afternoon",
+        "from": "",
+        "raw": "今天下午照常辦公、照常上課。"
+      },
+      {
+        "city": "嘉義縣",
+        "scope": "",
+        "forDate": "20050831",
+        "work": "normal",
+        "school": "normal",
+        "period": "afternoon",
+        "from": "",
+        "raw": "今天下午照常辦公、照常上課。"
+      },
+      {
+        "city": "臺南市",
+        "scope": "",
+        "forDate": "20050831",
+        "work": "stop",
+        "school": "stop",
+        "period": "evening",
+        "from": "",
+        "raw": "今天晚上停止辦公、停止上課。"
+      },
+      {
+        "city": "臺南縣",
+        "scope": "",
+        "forDate": "20050831",
+        "work": "stop",
+        "school": "stop",
+        "period": "evening",
+        "from": "",
+        "raw": "今天晚上停止辦公、停止上課。"
+      },
+      {
+        "city": "高雄市",
+        "scope": "",
+        "forDate": "20050831",
+        "work": "normal",
+        "school": "normal",
+        "period": "afternoon",
+        "from": "",
+        "raw": "今天下午照常辦公、照常上課。"
+      },
+      {
+        "city": "高雄縣",
+        "scope": "",
+        "forDate": "20050831",
+        "work": "normal",
+        "school": "normal",
+        "period": "afternoon",
+        "from": "",
+        "raw": "今天下午照常辦公、照常上課。"
+      },
+      {
+        "city": "屏東縣",
+        "scope": "",
+        "forDate": "20050831",
+        "work": "normal",
+        "school": "normal",
+        "period": "afternoon",
+        "from": "",
+        "raw": "今天下午照常辦公、照常上課。"
+      },
+      {
+        "city": "宜蘭縣",
+        "scope": "",
+        "forDate": "20050831",
+        "work": "stop",
+        "school": "stop",
+        "period": "afternoon",
+        "from": "",
+        "raw": "今天下午停止辦公、停止上課。"
+      },
+      {
+        "city": "花蓮縣",
+        "scope": "",
+        "forDate": "20050831",
+        "work": "stop",
+        "school": "stop",
+        "period": "afternoon",
+        "from": "",
+        "raw": "今天下午停止辦公、停止上課。"
+      },
+      {
+        "city": "臺東縣",
+        "scope": "",
+        "forDate": "20050831",
+        "work": "normal",
+        "school": "normal",
+        "period": "afternoon",
+        "from": "",
+        "raw": "今天下午照常辦公、照常上課。"
+      },
+      {
+        "city": "臺東縣",
+        "scope": "",
+        "forDate": "20050831",
+        "work": null,
+        "school": null,
+        "period": null,
+        "from": "",
+        "raw": "（下午 4時後停止辦公上課）"
+      },
+      {
+        "city": "澎湖縣",
+        "scope": "",
+        "forDate": "20050831",
+        "work": "normal",
+        "school": "normal",
+        "period": "afternoon",
+        "from": "",
+        "raw": "今天下午照常辦公、照常上課。"
+      },
+      {
+        "city": "連江縣",
+        "scope": "",
+        "forDate": "20050831",
+        "work": "normal",
+        "school": "normal",
+        "period": "afternoon",
+        "from": "",
+        "raw": "今天下午照常辦公、照常上課。"
+      },
+      {
+        "city": "金門縣",
+        "scope": "",
+        "forDate": "20050831",
+        "work": "normal",
+        "school": "normal",
+        "period": "afternoon",
+        "from": "",
+        "raw": "今天下午照常辦公、照常上課。"
+      }
+    ]
+  },
+  {
+    "date": "20050901",
+    "publishedAt": "20050901",
+    "updatedAt": "2005-09-01",
+    "sourceUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=6975",
+    "parsed": true,
+    "areas": [
+      {
+        "city": "基隆市",
+        "scope": "",
+        "forDate": "20050901",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      },
+      {
+        "city": "臺北市",
+        "scope": "",
+        "forDate": "20050901",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      },
+      {
+        "city": "臺北縣",
+        "scope": "",
+        "forDate": "20050901",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      },
+      {
+        "city": "桃園縣",
+        "scope": "",
+        "forDate": "20050901",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      },
+      {
+        "city": "新竹市",
+        "scope": "",
+        "forDate": "20050901",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      },
+      {
+        "city": "新竹縣",
+        "scope": "",
+        "forDate": "20050901",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      },
+      {
+        "city": "苗栗縣",
+        "scope": "",
+        "forDate": "20050901",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      },
+      {
+        "city": "臺中市",
+        "scope": "",
+        "forDate": "20050901",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      },
+      {
+        "city": "臺中縣",
+        "scope": "",
+        "forDate": "20050901",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      },
+      {
+        "city": "彰化縣",
+        "scope": "",
+        "forDate": "20050901",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      },
+      {
+        "city": "雲林縣",
+        "scope": "",
+        "forDate": "20050901",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      },
+      {
+        "city": "南投縣",
+        "scope": "",
+        "forDate": "20050901",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      },
+      {
+        "city": "嘉義市",
+        "scope": "",
+        "forDate": "20050901",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      },
+      {
+        "city": "嘉義縣",
+        "scope": "",
+        "forDate": "20050901",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      },
+      {
+        "city": "臺南市",
+        "scope": "",
+        "forDate": "20050901",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      },
+      {
+        "city": "臺南縣",
+        "scope": "",
+        "forDate": "20050901",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      },
+      {
+        "city": "高雄市",
+        "scope": "",
+        "forDate": "20050901",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      },
+      {
+        "city": "高雄縣",
+        "scope": "",
+        "forDate": "20050901",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      },
+      {
+        "city": "屏東縣",
+        "scope": "",
+        "forDate": "20050901",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      },
+      {
+        "city": "宜蘭縣",
+        "scope": "",
+        "forDate": "20050901",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      },
+      {
+        "city": "花蓮縣",
+        "scope": "",
+        "forDate": "20050901",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      },
+      {
+        "city": "臺東縣",
+        "scope": "",
+        "forDate": "20050901",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      },
+      {
+        "city": "澎湖縣",
+        "scope": "",
+        "forDate": "20050901",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      },
+      {
+        "city": "連江縣",
+        "scope": "",
+        "forDate": "20050901",
+        "work": "stop",
+        "school": "stop",
+        "period": "allDay",
+        "from": "",
+        "raw": "今天停止辦公、停止上課。"
+      },
+      {
+        "city": "金門縣",
+        "scope": "",
+        "forDate": "20050901",
+        "work": "normal",
+        "school": "normal",
+        "period": "morning",
+        "from": "",
+        "raw": "今天上午照常辦公、照常上課。"
+      },
+      {
+        "city": "金門縣",
+        "scope": "",
+        "forDate": "20050901",
+        "work": "stop",
+        "school": "stop",
+        "period": "afternoon",
+        "from": "",
+        "raw": "下午停止辦公、停止上課。"
+      }
+    ]
+  }
+]
