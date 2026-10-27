@@ -126,7 +126,8 @@ python3 -m unittest discover -s tests   # 驗證
 1. DGPA 通常在事件後 1～3 天才把紀錄放進歷史列表（2023 年起 197 筆中，119 筆隔 1 天），所以選在辦公時間之後執行。只讀列表第一頁；若整頁都是新事件才繼續往後讀，所以平常只需一次列表請求。
 2. 只下載新增事件的內頁與附件（`.cache/` 以 Actions cache 保存）。
 3. 解析並執行驗證；通過後才 commit `data/`。
-4. 最後執行 `FormatDrift` 檢查。若出現無法解析的新句型，**資料仍會發布，但該次執行會標為失敗**，GitHub 會通知你。請檢視該句，決定擴充 `scripts/parse.py`，或把句子加進 `tests/known_unparsed.txt`。
+4. 公開 repo 若 60 天沒有任何活動，GitHub 會自動停用排程；冬季（12–3 月）常常沒有新事件。所以距離上次 commit 超過 30 天時，會自動提交一個標記檔 `.github/keepalive`。
+5. 最後執行 `FormatDrift` 檢查。若出現無法解析的新句型，**資料仍會發布，但該次執行會標為失敗**，GitHub 會通知你。請檢視該句，決定擴充 `scripts/parse.py`，或把句子加進 `tests/known_unparsed.txt`。
 
 若 Actions cache 遺失（超過 7 天沒有執行），下一次會重新下載全部（約 15 分鐘）。
 
