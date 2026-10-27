@@ -171,9 +171,12 @@ def main():
             ed = re.search(r'<div id="editor">(.*?)<!-- download -->', d, re.S)
             body = clean(ed.group(1)) if ed else ''
             body = re.sub(r'^.*?公告時間：\s*[\d.]+\s*', '', body)
-            cm = re.match(r'([一-鿿]{2,3}[縣市巿])', body)
+            # city only when every sentence starts with the same one; several cities -> '' (see raw)
+            starts = {norm_city(m.group(1)) for sent in re.split(r'(?<=。)', body)
+                      for m in [re.match(r'\s*([一-鿿]{2,3}[縣市巿])', sent)] if sent.strip() and m}
+            city = starts.pop() if len(starts) == 1 else ''
             ev['parsed'] = False
-            ev['areas'] = [dict(city=norm_city(cm.group(1)) if cm else '', scope='', forDate=ev['date'],
+            ev['areas'] = [dict(city=city, scope='', forDate=ev['date'],
                                 work=None, school=None, period=None, **{'from': ''}, raw=body)]
             stats['noatt'].append(pid)
         else:

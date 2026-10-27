@@ -71,6 +71,9 @@ class Schema(unittest.TestCase):
             if not e['parsed']:
                 self.assertEqual(len(e['areas']), 1, e['sourceUrl'])
                 self.assertIsNone(e['areas'][0]['work'])
+                a = e['areas'][0]
+                if a['city']:  # a city is only given when the text is about that city alone
+                    self.assertTrue(a['raw'].startswith(a['city']), e['sourceUrl'])
 
 
 class FormatDrift(unittest.TestCase):
