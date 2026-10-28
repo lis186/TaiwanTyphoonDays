@@ -9,6 +9,7 @@ import json
 import re
 import sys
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parent.parent
 CACHE = ROOT / '.cache'
@@ -200,7 +201,11 @@ def main():
 
     out_dir = ROOT / 'data'
     out_dir.mkdir(exist_ok=True)
-    for year, days in by_year.items():
+    # every year from 2001 to the current Taiwan year gets a file, [] when it has no event,
+    # so that a missing file always means something went wrong
+    this_year = datetime.datetime.now(ZoneInfo('Asia/Taipei')).year
+    for year in map(str, range(2001, max(this_year, *map(int, by_year)) + 1)):
+        days = by_year.get(year, {})
         events = []
         for d in sorted(days):
             events += sorted(days[d], key=lambda e: e['updatedAt'])

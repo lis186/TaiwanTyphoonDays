@@ -23,6 +23,10 @@ class Schema(unittest.TestCase):
             self.assertEqual(dates, sorted(dates), f.name)
             self.assertTrue(all(d.startswith(f.stem) for d in dates), f.name)
 
+    def test_one_file_per_year_without_gaps(self):
+        years = sorted(int(f.stem) for f in (audit.ROOT / 'data').glob('*.json'))
+        self.assertEqual(years, list(range(2001, years[-1] + 1)))
+
     def test_event_fields(self):
         for e in EVENTS:
             self.assertEqual(set(e), {'date', 'publishedAt', 'updatedAt', 'sourceUrl', 'parsed', 'areas'})

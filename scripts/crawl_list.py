@@ -53,4 +53,4 @@ items = new + known
 if total is None or len(items) != total or len({i[0] for i in items}) != len(items):
     sys.exit(f'list inconsistent: have {len(items)} (new {len(new)}), unique {len({i[0] for i in items})}, site total {total}')
 json.dump(items, open(LIST, 'w'), ensure_ascii=False)
-print(f'{len(items)} items, {len(new)} new (site total {total}), pages read: {p}')
+print(f'{len(items)} items, {len(new)} new (site total {total}), pages read: {p}; newest: {items[0]}')

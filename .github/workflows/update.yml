@@ -56,15 +56,28 @@ jobs:
 
       - name: Commit and push
         run: |
-          if git diff --quiet -- data; then
+          # stage first: a new year's file is untracked, and `git diff` would not see it
+          git add data
+          if git diff --cached --quiet; then
             echo "no data changes"
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data
           git commit -m "data: update $(date -u +%F)"
           git push
+
+      # Measurement only: does the CDN serve what was just published? Logged to build a record of the
+      # commit-to-jsDelivr delay before deciding whether to purge (jsDelivr caches a branch path for up to 12 h).
+      - name: Compare CDN copies
+        continue-on-error: true
+        run: |
+          for f in $(git diff --name-only ${{ github.sha }} HEAD -- data); do
+            for url in "https://cdn.jsdelivr.net/gh/${{ github.repository }}/$f" \
+                       "https://raw.githubusercontent.com/${{ github.repository }}/${{ github.ref_name }}/$f"; do
+              if curl -fsS "$url" | cmp -s - "$f"; then echo "same  $url"; else echo "STALE $url"; fi
+            done
+          done
 
       # GitHub disables the scheduled workflows of a public repository after 60 days without repository activity,
       # and the off-season (Dec-Mar) can easily pass without a data change. After 30 quiet days, leave a marker commit.
