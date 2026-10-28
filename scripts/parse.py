@@ -146,6 +146,31 @@ def parse_cell(city, text, date, stats):
     return areas
 
 
+NOTICE_NONE = '無停班停課訊息。'
+
+
+def parse_page(s, date=None, stats=None):
+    """One attachment or live nds.html page (decoded HTML) -> dict(pageDate, updatedAt, noticeNone, areas, rows).
+
+    date defaults to the page header date. rows counts the city rows found: 0 with noticeNone False means the
+    page is not in a known format, which is different from a page whose rows held only noise (areas == []).
+    """
+    stats = stats or dict(unparsed=collections.Counter(), dropped=0)
+    if date is None:
+        m = re.search(r'(\d+)年\s*(\d+)月\s*(\d+)日\s*(?:[（(]星期.[)）])?\s*天然災害', clean(s))
+        date = roc_to_ad(m.groups())
+    page = dict(pageDate=date.strftime('%Y%m%d'), updatedAt=parse_updated(s), noticeNone=False, areas=[], rows=0)
+    for tr in re.findall(r'<tr[^>]*>(.*?)</tr>', s, re.S | re.I):
+        cells = [clean(c) for c in re.findall(r'<t[dh][^>]*>(.*?)</t[dh]>', tr, re.S | re.I)]
+        if cells == [NOTICE_NONE]:
+            page['noticeNone'] = True
+        if len(cells) not in (2, 3) or not CITY_RE.match(cells[-2]) or '名稱' in cells[-2]:
+            continue
+        page['rows'] += 1
+        page['areas'] += parse_cell(norm_city(cells[-2]), cells[-1], date, stats)
+    return page
+
+
 def pick_attachment(pid, links):
     for i, (_, title) in enumerate(links):
         if not NOT_CHINESE_ATT.search(title):
@@ -181,16 +206,9 @@ def main():
                                 work=None, school=None, period=None, **{'from': ''}, raw=body)]
             stats['noatt'].append(pid)
         else:
-            s = decode(att.read_bytes())
-            ev['updatedAt'] = parse_updated(s)
-            rows_seen = 0
-            for tr in re.findall(r'<tr[^>]*>(.*?)</tr>', s, re.S | re.I):
-                cells = [clean(c) for c in re.findall(r'<t[dh][^>]*>(.*?)</t[dh]>', tr, re.S | re.I)]
-                if len(cells) not in (2, 3) or not CITY_RE.match(cells[-2]) or '名稱' in cells[-2]:
-                    continue
-                rows_seen += 1
-                ev['areas'] += parse_cell(norm_city(cells[-2]), cells[-1], date, stats)
-            if not rows_seen:
+            page = parse_page(decode(att.read_bytes()), date, stats)
+            ev['updatedAt'], ev['areas'] = page['updatedAt'], page['areas']
+            if not page['rows']:
                 ev['parsed'] = False
                 stats['norows'].append(pid)
         stats['events'] += 1

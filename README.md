@@ -137,6 +137,7 @@ python3 -m unittest discover -s tests   # 驗證
 * `tests/test_parse.py`：各種句型的解析結果（含曾經解析錯誤的回歸案例）。
 * `tests/test_data.py`：`data/` 的欄位、值域與日期不變式。**其中 `FormatDrift` 是格式變動的警報**：更新後若出現 `tests/known_unparsed.txt` 以外的未解析句子，測試會失敗。請人工檢視，值得支援的就擴充 `parse.py`，否則把句子加進清單以接受為純原文。
 * `tests/audit.py`：對照 `.cache/` 的原始附件稽核（每筆 `raw` 都出現在原文、原文內容沒有被靜默丟失、標準句語意、日期合理性）。有 `.cache/` 時由 `test_data.py` 一併執行，沒有則略過。
+* `tests/test_live_fixtures.py`：即時頁 `nds.html` 的格級測試資料，見 [`tests/fixtures/live/`](tests/fixtures/live/README.md)。給其他語言的解析器當契約用。
 * `tests/audit_full.py <閘門>`：更完整的全量稽核（不抽樣、不連網），包含涵蓋率、快取完整性、事件日與附件標頭日期／星期、縣市列與改制日、時刻換算、預告與當日公告的一致性、檔案衛生、README 數字。`tests/audit_english.py` 以英文版附件做獨立交叉比對（逐縣市逐日比對「有無停班停課」）；不比對時段與子區域細節。
 
 ### 自動更新
