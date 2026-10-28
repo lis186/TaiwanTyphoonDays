@@ -46,16 +46,16 @@ jsDelivr 會快取分支路徑，新資料可能要等一段時間才會反映�
 
 ```json
 {
-  "date": "20261023",
-  "publishedAt": "20261027",
-  "updatedAt": "2026-10-23T20:21:50",
-  "sourceUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=13129",
+  "date": "20260625",
+  "publishedAt": "20260626",
+  "updatedAt": "2026-06-25T18:57:53",
+  "sourceUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=13019",
   "parsed": true,
   "areas": [
     {
       "city": "高雄市",
       "scope": "旗山區",
-      "forDate": "20261023",
+      "forDate": "20260625",
       "work": "stop",
       "school": "stop",
       "period": "from",
@@ -65,6 +65,8 @@ jsDelivr 會快取分支路徑，新資料可能要等一段時間才會反映�
   ]
 }
 ```
+
+（`areas` 只節錄此事件 11 筆中的 1 筆。）
 
 ### 事件欄位
 
